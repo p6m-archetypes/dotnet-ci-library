@@ -1,0 +1,16 @@
+---
+description: ".NET CI Workflows — GitHub Actions build and release workflows for .NET projects"
+summary: >
+  Generates .github/workflows/build.yaml (CI on push/PR) and
+  .github/workflows/cut-tag.yaml (manual release tagging) for any
+  .NET service archetype. Consumed as a library by service
+  archetypes, or run standalone to retrofit an existing project.
+authors: ["Jimmie Fulton <jimmie@ybor.ai>"]
+tags: ["library", "dotnet", "ci", "github-actions", "csharp"]
+
+requires:
+  archetect: "3.0.0"
+
+templating:
+  trim_blocks: true
+  lstrip_blocks: true
