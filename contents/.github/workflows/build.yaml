@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
   id-token: write
+
+env:
+  IMAGE_NAME: {{ project-name }}
+  APPLICATION_NAME: {{ project-name }}
   
 jobs:
   build:
