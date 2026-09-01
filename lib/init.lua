@@ -3,6 +3,7 @@
 -- Generates GitHub Actions CI workflows for .NET service archetypes:
 --   .github/workflows/build.yaml     — CI build on every push and PR
 --   .github/workflows/cut-tag.yaml   — manual workflow_dispatch release tagging
+--   .github/workflows/promote.yaml   — manual workflow_dispatch promotion of a release to stg/prd
 --
 -- Uses p6m-actions: dotnet-setup@v1, dotnet-build@v1, dotnet-cut-tag@v1
 --
